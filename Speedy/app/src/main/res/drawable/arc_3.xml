@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Arc 3 -->
+    <path
+        android:name="arc3"
+        android:pathData="M120,50 A70,70 0 0,1 190,120 A70,70 0 0,1 120,190"
+        android:strokeWidth="4"
+        android:strokeColor="#CCCCCC"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"/>
+</vector>

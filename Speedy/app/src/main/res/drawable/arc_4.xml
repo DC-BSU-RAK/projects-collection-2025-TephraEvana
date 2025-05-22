@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Arc 4 (Innermost) - Thinnest -->
+    <path
+        android:name="arc4"
+        android:pathData="M120,65 A55,55 0 0,1 175,120 A55,55 0 0,1 120,175"
+        android:strokeWidth="3"
+        android:strokeColor="#AAAAAA"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent"/>
+</vector>

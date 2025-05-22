@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    
+    <!-- Outer circle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="1.5"
+        android:pathData="M12,12m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+    
+    <!-- Inner circle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="1.5"
+        android:pathData="M12,12m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0" />
+    
+    <!-- Ping waves - top -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="1.5"
+        android:pathData="M12,3C16.4183,3 20,6.5817 20,11" />
+    
+    <!-- Ping waves - right -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="1.5"
+        android:pathData="M21,12C21,16.4183 17.4183,20 13,20" />
+    
+    <!-- Ping waves - bottom -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="1.5"
+        android:pathData="M12,21C7.5817,21 4,17.4183 4,13" />
+    
+    <!-- Ping waves - left -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFEB3B"
+        android:strokeWidth="1.5"
+        android:pathData="M3,12C3,7.5817 6.5817,4 11,4" />
+</vector>

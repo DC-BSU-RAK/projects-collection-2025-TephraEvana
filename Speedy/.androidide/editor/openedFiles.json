@@ -1,0 +1,350 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/InfoActivity.kt",
+      "selection": {
+        "end": {
+          "column": 23,
+          "index": 23,
+          "line": 0
+        },
+        "start": {
+          "column": 23,
+          "index": 23,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 1237,
+          "line": 53
+        },
+        "start": {
+          "column": 4,
+          "index": 1184,
+          "line": 52
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/AndroidManifest.xml",
+      "selection": {
+        "end": {
+          "column": 39,
+          "index": 1501,
+          "line": 45
+        },
+        "start": {
+          "column": 39,
+          "index": 1501,
+          "line": 45
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/layout/activity_info.xml",
+      "selection": {
+        "end": {
+          "column": 17,
+          "index": 9718,
+          "line": 220
+        },
+        "start": {
+          "column": 17,
+          "index": 9718,
+          "line": 220
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/LoginActivity.kt",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 2081,
+          "line": 58
+        },
+        "start": {
+          "column": 0,
+          "index": 2081,
+          "line": 58
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/DevelopersActivity.kt",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 29,
+          "line": 1
+        },
+        "start": {
+          "column": 0,
+          "index": 29,
+          "line": 1
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/layout/activity_developers.xml",
+      "selection": {
+        "end": {
+          "column": 17,
+          "index": 10301,
+          "line": 231
+        },
+        "start": {
+          "column": 17,
+          "index": 10301,
+          "line": 231
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/drawable/circle_background.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 177,
+          "line": 4
+        },
+        "start": {
+          "column": 8,
+          "index": 177,
+          "line": 4
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/drawable/ic_back.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/SessionManager.kt",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 30,
+          "line": 2
+        },
+        "start": {
+          "column": 0,
+          "index": 30,
+          "line": 2
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/ProfileActivity.kt",
+      "selection": {
+        "end": {
+          "column": 6,
+          "index": 4868,
+          "line": 134
+        },
+        "start": {
+          "column": 6,
+          "index": 4868,
+          "line": 134
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/layout/activity_profile.xml",
+      "selection": {
+        "end": {
+          "column": 17,
+          "index": 7898,
+          "line": 197
+        },
+        "start": {
+          "column": 0,
+          "index": 0,
+          "line": 0
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/drawable/button_rounded_background.xml",
+      "selection": {
+        "end": {
+          "column": 8,
+          "index": 220,
+          "line": 5
+        },
+        "start": {
+          "column": 8,
+          "index": 220,
+          "line": 5
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/EditProfileActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 12154,
+          "line": 328
+        },
+        "start": {
+          "column": 1,
+          "index": 12154,
+          "line": 328
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/layout/activity_edit_profile.xml",
+      "selection": {
+        "end": {
+          "column": 9,
+          "index": 8336,
+          "line": 205
+        },
+        "start": {
+          "column": 8,
+          "index": 8335,
+          "line": 205
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/UserRepository.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 592,
+          "line": 21
+        },
+        "start": {
+          "column": 1,
+          "index": 592,
+          "line": 21
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/drawable/ic_calendar.xml",
+      "selection": {
+        "end": {
+          "column": 9,
+          "index": 452,
+          "line": 10
+        },
+        "start": {
+          "column": 9,
+          "index": 452,
+          "line": 10
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/SettingsActivity.kt",
+      "selection": {
+        "end": {
+          "column": 7,
+          "index": 1464,
+          "line": 47
+        },
+        "start": {
+          "column": 7,
+          "index": 1464,
+          "line": 47
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/layout/activity_settings.xml",
+      "selection": {
+        "end": {
+          "column": 5,
+          "index": 1311,
+          "line": 33
+        },
+        "start": {
+          "column": 5,
+          "index": 1311,
+          "line": 33
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/java/com/speed/swifttest/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 9,
+          "index": 17712,
+          "line": 458
+        },
+        "start": {
+          "column": 9,
+          "index": 17712,
+          "line": 458
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/values/themes.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 344,
+          "line": 8
+        },
+        "start": {
+          "column": 0,
+          "index": 344,
+          "line": 8
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/values/colors.xml",
+      "selection": {
+        "end": {
+          "column": 0,
+          "index": 448,
+          "line": 11
+        },
+        "start": {
+          "column": 0,
+          "index": 448,
+          "line": 11
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/layout/activity_main.xml",
+      "selection": {
+        "end": {
+          "column": 19,
+          "index": 7174,
+          "line": 186
+        },
+        "start": {
+          "column": 4,
+          "index": 5160,
+          "line": 134
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/SwiftTest/app/src/main/res/drawable/ic_calendar.xml"
+}

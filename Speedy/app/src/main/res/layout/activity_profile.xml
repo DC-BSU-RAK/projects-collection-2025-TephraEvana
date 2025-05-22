@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wavy_background">
+
+    <!-- ScrollView for content -->
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_nav_bar"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Profile Picture -->
+            <ImageView
+                android:id="@+id/profile_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/ic_profile_placeholder"
+                android:background="#333333" />
+
+            <!-- User Basic Info -->
+            <TextView
+                android:id="@+id/text_full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/profile_image"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="40dp"
+                android:text="Jane Doe"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_age_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_full_name"
+                android:layout_alignStart="@id/text_full_name"
+                android:layout_marginTop="4dp"
+                android:text="Age: 20\nGender: Female"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Information Section Title -->
+            <TextView
+                android:id="@+id/text_information_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_image"
+                android:layout_marginTop="40dp"
+                android:text="Information | Information"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Divider -->
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/text_information_title"
+                android:layout_marginTop="8dp"
+                android:background="#333333" />
+
+            <!-- Detailed User Info -->
+            <TextView
+                android:id="@+id/text_birthdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_marginTop="40dp"
+                android:text="Birthdate: February 1, 2004"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_birthdate"
+                android:layout_marginTop="20dp"
+                android:text="Email: example@email.com"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_email"
+                android:layout_marginTop="20dp"
+                android:text="Address: Cebu Institute Univ"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_address"
+                android:layout_marginTop="20dp"
+                android:text="Phone: ##########"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Buttons -->
+            <Button
+                android:id="@+id/button_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_phone"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/button_rounded_background"
+                android:paddingVertical="12dp"
+                android:text="Log Out"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button_edit_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button_logout"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_rounded_background"
+                android:paddingVertical="12dp"
+                android:text="Edit Profile"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation Bar -->
+    <LinearLayout
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#F1F1F1"
+        android:orientation="horizontal"
+        android:paddingVertical="8dp">
+        
+        <ImageView
+            android:id="@+id/home_icon"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home"
+            android:tint="#808080"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        
+        <ImageView
+            android:id="@+id/profile_icon"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_profile"
+            android:tint="#000000"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        
+        <ImageView
+            android:id="@+id/info_icon"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_info"
+            android:tint="#808080"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+        
+        <ImageView
+            android:id="@+id/settings_icon"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_settings"
+            android:tint="#808080"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+    </LinearLayout>
+
+</RelativeLayout>

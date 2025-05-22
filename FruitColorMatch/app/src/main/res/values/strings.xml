@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FruitColorMatch</string>
+    <string name="full_screen_image">Full screen image</string>
+    <string name="select_a_color">Select a Color:</string>
+    <string name="get_matching_fruit">Get Matching Fruit</string>
+    <string name="fruit_image">Fruit Image</string>
+    <string name="combine_for_a_result">Combine for a result!</string>
+    <string name="get_produce">Get Produce!</string>
+
+    <string-array name="type_array">
+        <item>Fruit</item>
+        <item>Vegetable</item>
+    </string-array>
+
+    <string-array name="color_array">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Purple</item>
+        <item>Orange</item>
+    </string-array>
+
+</resources>
